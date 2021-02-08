@@ -1,0 +1,64 @@
+/* Desktop */
+.l-body-banner {
+    width: 100%;
+    height: auto;
+    padding: 20px 0px;
+    background: #FF4500;
+    text-align: center;
+}
+
+.l-body-banner-container {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    max-width: 1100px;
+    text-align: center;
+    padding: 0 50px;
+}
+
+.l-body-banner-title {
+    display: inline;
+    -webkit-transform: translateY(25%);
+    transform: translateY(25%);
+    letter-spacing: -1.5px;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.l-body-banner-button {
+    display: flex;
+    align-items: center;
+}
+
+.l-body-banner-button-inner {
+    font-size: 18px !important;
+    font-weight: bold !important;
+    color: #FF4500 !important;
+    background: #EFEFEF !important;
+    border-color: #EFEFEF !important;
+    border-radius: 10px !important;
+    width: auto;
+    height: auto;
+    padding: 8px 25px !important;
+    box-shadow: 7px 7px 7px rgba(57, 57, 57, 0.45);
+}
+
+/* Tablet & Mobile */
+@media screen and (max-width: 768px) {
+    .l-body-banner {
+        padding-top: 15px;
+        padding-bottom: 20px;
+    }
+
+    .l-body-banner-container {
+        display: block;
+    }
+
+    .l-body-banner-button {
+        margin-top: 10px;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}

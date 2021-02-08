@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit !important;
+}
+
+a:hover {
+  color: inherit !important;
+  text-decoration: none !important;
+  font-weight: bold !important;
+}

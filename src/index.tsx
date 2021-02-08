@@ -1,17 +1,26 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import ReactDOM, {hydrate} from 'react-dom';
+import App from './component/_base/App';
 import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
+/**
+ * css import
+ */
+import './assets/css/_base/index.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+const rootElement: any  = document.getElementById("root");
+const app: any = (
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+if (rootElement.hasChildNodes()) {
+  hydrate(app, rootElement);
+} else {
+  ReactDOM.render(app, rootElement
+  );
+}
+
 reportWebVitals();
