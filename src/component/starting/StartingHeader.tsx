@@ -1,9 +1,12 @@
 import React, { useState, useEffect, useRef } from 'react'
-import '../../assets/css/_base/Header.css';
-import logo from "../../assets/images/logo.png";
+import '../../assets/css/starting/Header.css';
+import logo from "../../assets/images/logo/starting-logo.png";
+import {Button} from "react-bootstrap";
+import {Link} from "react-router-dom";
 
 interface Props {
   hideTargetId: string
+  toggleDrawer: any
 }
 function StartingHeader(props: Props) {
 
@@ -31,13 +34,18 @@ function StartingHeader(props: Props) {
   }, [pageY]);
 
   return (
-    <header className={(hide && 'header-up header') || 'header'}>
+    <header className={(hide && 'header-up s-header') || 's-header'}>
       <div className="header-main">
-        <div className="header-main-menu">
-          <img className="header-main-icon" src={logo} alt={"포만감"} />
+        <div className="s-header-main-menu">
+          <img className="s-header-main-icon" src={logo} alt={"포만감"} />
         </div>
-        <div className="header-main-login header-main-menu-text">
-
+        <div className="s-header-main-button">
+          <Button
+            className="s-header-main-button-inner"
+            onClick={props.toggleDrawer()}
+          >
+            서비스 신청하기
+          </Button>
         </div>
       </div>
     </header>

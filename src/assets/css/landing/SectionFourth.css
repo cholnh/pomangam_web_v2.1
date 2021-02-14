@@ -1,8 +1,8 @@
 /* Desktop */
 .l-s-fourth {
-    background: #F5F2F2;
+    background: #F5F5F5;
     height: auto;
-    padding: 200px 0px;
+    padding: 100px 0px;
     text-align: center;
 }
 
@@ -22,8 +22,9 @@
 
 .l-s-fourth-grid {
     margin: 0 auto;
-    max-width: 1140px;
+    max-width: 1050px;
     text-align: center;
+    padding: 0px 25px;
 }
 
 .l-s-fourth-grid .row {
@@ -79,7 +80,7 @@ display: inline-block;
 /* Mobile */
 @media screen and (max-width: 768px) {
     .l-s-fourth {
-        padding: 100px 0px;
+        padding: 50px 0px;
     }
 
     .l-s-fourth-title {

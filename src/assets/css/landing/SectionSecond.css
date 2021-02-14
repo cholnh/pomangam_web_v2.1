@@ -3,7 +3,7 @@
     background: #F5F2F2;
     height: auto;
     text-align: center;
-    padding: 200px 0px;
+    padding: 100px 0px;
 }
 
 .l-s-second-image-container {
@@ -77,7 +77,7 @@
 /* Tablet & Mobile */
 @media screen and (max-width: 768px) {
     .l-s-second {
-        padding: 100px 0px;
+        padding: 50px 0px;
     }
 
     .l-s-second-image-container {

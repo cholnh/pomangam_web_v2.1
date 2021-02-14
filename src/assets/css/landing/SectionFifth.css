@@ -1,7 +1,7 @@
 /* Desktop */
 .l-s-fifth {
     height: auto;
-    padding: 200px 0px;
+    padding: 100px 0px;
     text-align: center;
 }
 
@@ -90,7 +90,7 @@
 .l-s-fifth-grid-help {
     position: absolute;
     display: inline;
-    width: 100%;
+    width: fit-content;
     top: 90%;
     left: 75%;
     z-index: 500;
@@ -167,7 +167,7 @@
 /* Mobile */
 @media screen and (max-width: 768px) {
     .l-s-fifth {
-        padding: 100px 0px;
+        padding: 50px 0px;
     }
 
     .l-s-fifth-title {

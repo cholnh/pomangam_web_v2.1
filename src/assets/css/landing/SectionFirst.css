@@ -35,7 +35,7 @@
 /* Tablet & Mobile */
 @media screen and (max-width: 768px) {
     .l-s-first {
-        padding: 100px 0px;
+        padding: 50px 0px;
     }
 
     .l-s-first-title {

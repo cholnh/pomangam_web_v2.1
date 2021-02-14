@@ -1,4 +1,5 @@
 import {useEffect, useState} from "react";
+import {isMobile} from "react-device-detect";
 
 function getWindowDimensions() {
   const { innerWidth: width, innerHeight: height } = window;

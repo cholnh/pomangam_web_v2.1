@@ -1,50 +1,56 @@
 /* Desktop */
 .header {
   position: fixed;
-  background: #707070;
-  border: 1px solid #707070;
-  opacity: .8;
-  height: 68px;
+  background: white;
+  color: #707070;
+  height: auto;
   width: 100%;
   text-align: start;
   transition: .4s ease;
-  z-index: 9999;
+  z-index: 9000;
+  box-shadow: 0 0 5px 5px rgba(57, 57, 57, 0.1);
 }
 
 .header-up {
-  transform: translateY(-68px);
+  transform: translateY(-100px);
 }
 
 .header-main {
-  display: flex;
-  justify-content: space-between;
   width: auto;
   height: auto;
-  max-width: 1200px;
+  max-width: 1050px;
   margin: 0 auto;
-  padding-right: 30px;
-  padding-left: 30px;
-  -webkit-transform: translateY(50%);
-  transform: translateY(50%);
+  padding: 0px 25px;
 }
 
 .header-main-icon {
-  display: inline;
-  width: 120px;
-  height: 31px;
+  display: inline-block;
+  float: left;
+  margin: 12px 0;
+  width: 100px;
+  height: 30px;
+}
+
+.header-main-icon img {
+  object-fit: contain;
 }
 
 .header-main-menu {
   display: inline-block;
-  align-content: start;
+  float: left;
+  margin: 15px 30px 0;
 }
 
 .header-main-menu-text {
-  display: inline;
-  color: #E8E8E8;
+  display: inline-block;
   font-size: 14px;
   opacity: 1;
   letter-spacing: -0.9px;
+  margin-left: 15px;
+}
+
+.header-main-menu-text .active {
+
 }
 
 .header-main-menu-list-item {
@@ -53,8 +59,9 @@
 }
 
 .header-main-login {
-  display: flex;
-  align-items: center;
+  display: inline-block;
+  float: right;
+  margin: 15px 0;
 }
 
 .header-main-login span {

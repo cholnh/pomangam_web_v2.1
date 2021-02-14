@@ -2,14 +2,15 @@
 .l-s-sixth {
     background: #FCFCFC;
     height: auto;
-    padding: 200px 0px;
+    padding: 100px 0px;
     text-align: center;
 }
 
 .l-s-sixth-grid {
     margin: 0 auto;
-    max-width: 1140px;
+    max-width: 1050px;
     text-align: left;
+    padding: 0px 25px;
 }
 
 .l-s-sixth-grid .row {
@@ -72,7 +73,7 @@
 /* Mobile */
 @media screen and (max-width: 768px) {
     .l-s-sixth {
-        padding: 100px 0px;
+        padding: 50px 0px;
     }
 
     .l-s-sixth-info-subtitle {

@@ -180,7 +180,7 @@ function GridItem(props: any) {
         {title}
       </div>
       <div className="l-s-fifth-grid-item-price">
-        {price} / 일 {mobile
+        {price} {mobile
         ?
           <div className="l-s-fifth-grid-help">
             <hr className="l-s-fifth-grid-help-hr" />
@@ -190,7 +190,7 @@ function GridItem(props: any) {
       }
       </div>
       <div className="l-s-fifth-grid-item-sale">
-        {salePrice} {mobile
+        {salePrice} / 일 {mobile
           ?
             <div className="l-s-fifth-grid-help">
               <hr className="l-s-fifth-grid-help-hr highlight" />
