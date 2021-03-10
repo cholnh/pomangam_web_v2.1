@@ -1,46 +1,46 @@
-# Getting Started with Create React App
+```
+███╗   ███╗██████╗    ██████╗  ██████╗ ██████╗ ████████╗███████╗██████╗
+████╗ ████║██╔══██╗   ██╔══██╗██╔═══██╗██╔══██╗╚══██╔══╝██╔════╝██╔══██╗
+██╔████╔██║██████╔╝   ██████╔╝██║   ██║██████╔╝   ██║   █████╗  ██████╔╝
+██║╚██╔╝██║██╔══██╗   ██╔═══╝ ██║   ██║██╔══██╗   ██║   ██╔══╝  ██╔══██╗
+██║ ╚═╝ ██║██║  ██║██╗██║     ╚██████╔╝██║  ██║   ██║   ███████╗██║  ██║
+╚═╝     ╚═╝╚═╝  ╚═╝╚═╝╚═╝      ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚══════╝╚═╝  ╚═╝
+```
+---
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 예약배송 플랫폼 포만감v1.2, 소개용 REACT 웹
 
-## Available Scripts
+### 수행기간
+- 2020-12 ~ (진행 보류중)
 
-In the project directory, you can run:
+### 사용기술
+- React.js, Redux, ES6+, NginX
 
-### `npm start`
+### 인원
+- 1명 ([NTEVE](https://github.com/cholnh))
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 개요
+- 플랫폼 소개용 웹 페이지.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### 스크린샷
+|메인#1|메인#2|메인#3|메인#4|메인#5|메인#6|
+|--|--|--|--|--|--|
+|![s1](https://user-images.githubusercontent.com/23611497/110630095-4a11ac00-81e8-11eb-8fa8-dc8bf10b2f64.jpg)|![s2](https://user-images.githubusercontent.com/23611497/110630109-4e3dc980-81e8-11eb-8e21-af54472bb125.jpg)|![s3](https://user-images.githubusercontent.com/23611497/110630122-50078d00-81e8-11eb-870a-0894acbbaefc.jpg)|![s4](https://user-images.githubusercontent.com/23611497/110630134-5433aa80-81e8-11eb-83d1-d6234ab70e15.jpg)|![s5](https://user-images.githubusercontent.com/23611497/110630143-56960480-81e8-11eb-924d-9cde3d4c4d8b.jpg)|![s6](https://user-images.githubusercontent.com/23611497/110630152-5990f500-81e8-11eb-853a-f9814a660123.jpg)|
 
-### `npm test`
+|메뉴#1|메뉴#2|메뉴#3|메뉴#4|직원#1|직원#2|
+|--|--|--|--|--|--|
+|![ss1](https://user-images.githubusercontent.com/23611497/110630182-644b8a00-81e8-11eb-8795-bf18647f7aca.jpg)|![ss2](https://user-images.githubusercontent.com/23611497/110630197-6a416b00-81e8-11eb-89b8-b6c376affa95.jpg)|![ss3](https://user-images.githubusercontent.com/23611497/110630211-6d3c5b80-81e8-11eb-97ed-1488ab1ff21b.jpg)|![ss4](https://user-images.githubusercontent.com/23611497/110630219-6f9eb580-81e8-11eb-9bbc-7cff35c1fd3a.jpg)|![my1](https://user-images.githubusercontent.com/23611497/110630226-7299a600-81e8-11eb-9b0e-cf23ac2be0b9.jpg)|![my2](https://user-images.githubusercontent.com/23611497/110630232-75949680-81e8-11eb-9fa3-a118af51ed22.jpg)|
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+
